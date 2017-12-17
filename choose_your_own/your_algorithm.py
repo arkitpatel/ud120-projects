@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 import matplotlib.pyplot as plt
-from choose_your_own.prep_terrain_data import makeTerrainData
-from choose_your_own.class_vis import prettyPicture
+from prep_terrain_data import makeTerrainData
+from class_vis import prettyPicture
 from sklearn.naive_bayes import GaussianNB
 
 features_train, labels_train, features_test, labels_test = makeTerrainData()
